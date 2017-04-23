@@ -12,7 +12,7 @@ namespace DAGK.Controllers
         // GET: SHOP
         public ActionResult Index()
         {
-            var dsSanPham = SHOPBus.DanhSach();
+            var dsSanPham = SHOPBus.DanhSach(); 
             return View(dsSanPham);
 
         }

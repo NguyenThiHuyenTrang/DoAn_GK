@@ -19,22 +19,21 @@
 
 @foreach (var item in Model)
 {
-
+    
     <div class="col-md-3 col-sm-6">
         <div class="single-shop-product">
             <div class="product-upper">
-
-                <a href="@Url.Action("Details", "SHOP", new { id = item.ProductID }, null)">
-                    <!--ABC-->
-                    <img src="/TN/img/@item.ImageURL" alt="" style="width :195px; height:240px;">
+              
+                <a href="@Url.Action("Details", "SHOP", new { id = item.ProductID }, null)"><!--ABC-->
+                    <img src= "/TN/img/@item.ImageURL" alt="" style="width :195px; height:240px;">
                 </a>
             </div>
-            <h2>@Html.ActionLink(item.ProductName, "Details", new { id = item.ProductID })</h2>
-
+            <h2>@Html.ActionLink(item.ProductName, "Details", new { id=item.ProductID })</h2>
+           
             <div class="product-carousel-price">
-                <ins>@item.Price</ins>
+                <ins>@item.Price</ins> 
             </div>
-
+            
             <div class="product-option-shop">
                 <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">Add to cart</a>
             </div>
@@ -67,5 +66,5 @@
         </div>
     </div>
 </div>
-
+  
 
