@@ -1,4 +1,5 @@
 ﻿using DAGK.Models.Bus;
+using PagedList;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,20 +11,19 @@ namespace DAGK.Controllers
     public class SHOPController : Controller
     {
         // GET: SHOP
-        public ActionResult Index()
+        public ActionResult Index(int page = 1, int  pagesize = 8)
         {
-            var dsSanPham = SHOPBus.DanhSach(); 
+            var dsSanPham = SHOPBus.DanhSach().ToPagedList(page, pagesize); 
             return View(dsSanPham);
 
         }
 
         // GET: SHOP/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details(String id)
         {
             return View(SHOPBus.ChiTiet(id));
         }
 
-        // GET: SHOP/Create
         public ActionResult Create()
         {
             return View();

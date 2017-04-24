@@ -94,3 +94,7 @@ D:\Web2\BTLT\DoAn\DAGK\obj\Debug\DAGK.csprojResolveAssemblyReference.cache
 D:\Web2\BTLT\DoAn\DAGK\obj\Debug\DAGK.dll
 D:\Web2\BTLT\DoAn\DAGK\obj\Debug\DAGK.pdb
 D:\Web2\BTLT\DAGK\DAGK\obj\Debug\DAGK.csprojResolveAssemblyReference.cache
+C:\Users\Huyền Trang\Desktop\DAGK\DAGK\bin\PagedList.dll
+C:\Users\Huyền Trang\Desktop\DAGK\DAGK\bin\PagedList.Mvc.dll
+C:\Users\Huyền Trang\Desktop\DAGK\DAGK\bin\PagedList.xml
+C:\Users\Huyền Trang\Desktop\DAGK\DAGK\bin\PagedList.Mvc.xml

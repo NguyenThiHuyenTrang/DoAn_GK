@@ -4,29 +4,29 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace DAGK.Areas.Admin.Controllers
+namespace DAGK.Areas.Admin
 {
-    public class ProducerController : Controller
+    public class ProductTypeAdminController : Controller
     {
-        // GET: Admin/Producer
+        // GET: Admin/ProductType
         public ActionResult Index()
         {
             return View();
         }
 
-        // GET: Admin/Producer/Details/5
+        // GET: Admin/ProductType/Details/5
         public ActionResult Details(int id)
         {
             return View();
         }
 
-        // GET: Admin/Producer/Create
+        // GET: Admin/ProductType/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: Admin/Producer/Create
+        // POST: Admin/ProductType/Create
         [HttpPost]
         public ActionResult Create(FormCollection collection)
         {
@@ -42,13 +42,13 @@ namespace DAGK.Areas.Admin.Controllers
             }
         }
 
-        // GET: Admin/Producer/Edit/5
+        // GET: Admin/ProductType/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: Admin/Producer/Edit/5
+        // POST: Admin/ProductType/Edit/5
         [HttpPost]
         public ActionResult Edit(int id, FormCollection collection)
         {
@@ -64,13 +64,13 @@ namespace DAGK.Areas.Admin.Controllers
             }
         }
 
-        // GET: Admin/Producer/Delete/5
+        // GET: Admin/ProductType/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: Admin/Producer/Delete/5
+        // POST: Admin/ProductType/Delete/5
         [HttpPost]
         public ActionResult Delete(int id, FormCollection collection)
         {

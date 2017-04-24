@@ -137,52 +137,6 @@ namespace WEB2Connection
 
     
 
-	[TableName("dbo.Comment")]
-
-
-
-	[PrimaryKey("CommentID", AutoIncrement=false)]
-
-
-	[ExplicitColumns]
-
-    public partial class Comment : WEB2ConnectionDB.Record<Comment>  
-    {
-
-
-
-		[Column] public int CommentID { get; set; }
-
-
-
-
-
-		[Column] public int? UserID { get; set; }
-
-
-
-
-
-		[Column] public int? ProductID { get; set; }
-
-
-
-
-
-		[Column] public string Value { get; set; }
-
-
-
-
-
-		[Column] public DateTime? Date { get; set; }
-
-
-
-	}
-
-    
-
 	[TableName("dbo.DetailedInvoice")]
 
 
@@ -211,7 +165,7 @@ namespace WEB2Connection
 
 
 
-		[Column] public int? ProductID { get; set; }
+		[Column] public string ProductID { get; set; }
 
 
 
@@ -253,7 +207,7 @@ namespace WEB2Connection
 
 
 
-		[Column] public int? ProductID { get; set; }
+		[Column] public string ProductID { get; set; }
 
 
 
@@ -313,9 +267,7 @@ namespace WEB2Connection
 
 
 
-	[PrimaryKey("ProducerID")]
-
-
+	[PrimaryKey("ProducerID", AutoIncrement=false)]
 
 
 	[ExplicitColumns]
@@ -325,7 +277,7 @@ namespace WEB2Connection
 
 
 
-		[Column] public int ProducerID { get; set; }
+		[Column] public string ProducerID { get; set; }
 
 
 
@@ -355,9 +307,7 @@ namespace WEB2Connection
 
 
 
-	[PrimaryKey("ProductID")]
-
-
+	[PrimaryKey("ProductID", AutoIncrement=false)]
 
 
 	[ExplicitColumns]
@@ -367,7 +317,7 @@ namespace WEB2Connection
 
 
 
-		[Column] public int ProductID { get; set; }
+		[Column] public string ProductID { get; set; }
 
 
 
@@ -379,13 +329,13 @@ namespace WEB2Connection
 
 
 
-		[Column] public int? ProductTypeID { get; set; }
+		[Column] public string ProductTypeID { get; set; }
 
 
 
 
 
-		[Column] public int? ProducerID { get; set; }
+		[Column] public string ProducerID { get; set; }
 
 
 
@@ -435,9 +385,11 @@ namespace WEB2Connection
 
 		[Column] public long? Deleted { get; set; }
 
-
-
-	}
+        internal object ToPageList()
+        {
+            throw new NotImplementedException();
+        }
+    }
 
     
 
@@ -445,9 +397,7 @@ namespace WEB2Connection
 
 
 
-	[PrimaryKey("ProductDetailedID")]
-
-
+	[PrimaryKey("ProductDetailedID", AutoIncrement=false)]
 
 
 	[ExplicitColumns]
@@ -457,13 +407,13 @@ namespace WEB2Connection
 
 
 
-		[Column] public int ProductDetailedID { get; set; }
+		[Column] public string ProductDetailedID { get; set; }
 
 
 
 
 
-		[Column] public int? ProductID { get; set; }
+		[Column] public string ProductID { get; set; }
 
 
 
@@ -505,9 +455,7 @@ namespace WEB2Connection
 
 
 
-	[PrimaryKey("ProductTypeID")]
-
-
+	[PrimaryKey("ProductTypeID", AutoIncrement=false)]
 
 
 	[ExplicitColumns]
@@ -517,7 +465,7 @@ namespace WEB2Connection
 
 
 
-		[Column] public int ProductTypeID { get; set; }
+		[Column] public string ProductTypeID { get; set; }
 
 
 

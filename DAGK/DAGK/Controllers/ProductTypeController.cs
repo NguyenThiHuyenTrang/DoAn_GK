@@ -8,14 +8,13 @@ using System.Web.Mvc;
 
 namespace DAGK.Controllers
 {
-    public class ProducerController : Controller
+    public class ProductTypeController : Controller
     {
-        // GET: Producer
-        public ActionResult Index(String id, int page = 1, int pagesize = 2)
+        // GET: ProductType
+        public ActionResult Index(String id, int page = 1, int pagesize = 4)
         {
-            var ds = ProducerBus.ChiTiet(id).ToPagedList(page, pagesize);
+            var ds = ProductTypeBus.ChiTiet(id).ToPagedList(page, pagesize);
             return View(ds);
-            
         }
     }
 }

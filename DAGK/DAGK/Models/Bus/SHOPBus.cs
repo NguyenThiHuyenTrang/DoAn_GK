@@ -13,7 +13,7 @@ namespace DAGK.Models.Bus
             var db = new WEB2ConnectionDB();
             return db.Query<Product>("select  * from Product");
         }
-        public static Product ChiTiet(int id )
+        public static Product ChiTiet(String id )
         {
             var db = new WEB2ConnectionDB();
             return db.SingleOrDefault<Product>("select * from Product where ProductID = @0", id);
