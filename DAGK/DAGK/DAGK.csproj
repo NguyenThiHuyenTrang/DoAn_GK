@@ -195,6 +195,10 @@
     <Content Include="Areas\assets\font-awesome\css\font-awesome.min.css" />
     <Content Include="Areas\assets\font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="Areas\assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Areas\assets\img\Ad.png" />
+    <Content Include="Areas\assets\img\Add.png" />
+    <Content Include="Areas\assets\img\Delete.png" />
+    <Content Include="Areas\assets\img\Edit.png" />
     <Content Include="Areas\assets\img\logo.png" />
     <Content Include="Areas\assets\img\user.jpg" />
     <Content Include="Areas\assets\plugins\bootstrap\bootstrap.css" />
@@ -247,8 +251,10 @@
     <Content Include="Areas\assets\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Areas\assets\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Areas\Admin\Views\Product\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\ProductType\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\Producer\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\ProducerAdmin\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\ProductTypeAdmin\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\ProductTypeAdmin\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\ProducerAdmin\Create.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />

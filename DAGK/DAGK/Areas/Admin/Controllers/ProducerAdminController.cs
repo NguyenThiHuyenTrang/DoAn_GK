@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAGK.Models.Bus;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,8 @@ namespace DAGK.Areas.Admin.Controllers
         // GET: Admin/Producer
         public ActionResult Index()
         {
-            return View();
+            var ds = ProducerBus.DanhSach();
+            return View(ds);
         }
 
         // GET: Admin/Producer/Details/5
