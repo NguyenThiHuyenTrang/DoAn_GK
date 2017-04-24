@@ -67,7 +67,6 @@ D:\Web2\BTLT\DAGK\DAGK\bin\System.Web.WebPages.xml
 D:\Web2\BTLT\DAGK\DAGK\bin\System.Web.WebPages.Deployment.xml
 D:\Web2\BTLT\DAGK\DAGK\bin\System.Web.WebPages.Razor.xml
 D:\Web2\BTLT\DAGK\DAGK\bin\Antlr3.Runtime.pdb
-D:\Web2\BTLT\DAGK\DAGK\obj\Debug\DAGK.csprojResolveAssemblyReference.cache
 D:\Web2\BTLT\DAGK\DAGK\obj\Debug\DAGK.dll
 D:\Web2\BTLT\DAGK\DAGK\obj\Debug\DAGK.pdb
 D:\Web2\BTLT\DoAn\DAGK\bin\DAGK.dll.config
@@ -94,3 +93,4 @@ D:\Web2\BTLT\DoAn\DAGK\bin\Antlr3.Runtime.pdb
 D:\Web2\BTLT\DoAn\DAGK\obj\Debug\DAGK.csprojResolveAssemblyReference.cache
 D:\Web2\BTLT\DoAn\DAGK\obj\Debug\DAGK.dll
 D:\Web2\BTLT\DoAn\DAGK\obj\Debug\DAGK.pdb
+D:\Web2\BTLT\DAGK\DAGK\obj\Debug\DAGK.csprojResolveAssemblyReference.cache

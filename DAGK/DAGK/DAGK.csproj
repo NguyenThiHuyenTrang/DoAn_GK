@@ -157,11 +157,18 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\MainAdminController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ProducerController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ProductController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ProductTypeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProducerController.cs" />
     <Compile Include="Controllers\SHOPController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Bus\ProducerBus.cs" />
     <Compile Include="Models\Bus\shop.cs" />
     <Compile Include="Models\Bus\SHOPBus.cs" />
     <Compile Include="Models\Generated\Database.cs">
@@ -173,6 +180,38 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Areas\assets\css\main-style.css" />
+    <Content Include="Areas\assets\css\style.css" />
+    <Content Include="Areas\assets\font-awesome\css\font-awesome.css" />
+    <Content Include="Areas\assets\font-awesome\css\font-awesome.min.css" />
+    <Content Include="Areas\assets\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="Areas\assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Areas\assets\img\logo.png" />
+    <Content Include="Areas\assets\img\user.jpg" />
+    <Content Include="Areas\assets\plugins\bootstrap\bootstrap.css" />
+    <Content Include="Areas\assets\plugins\bootstrap\bootstrap.js" />
+    <Content Include="Areas\assets\plugins\bootstrap\bootstrap.min.js" />
+    <Content Include="Areas\assets\plugins\dataTables\dataTables.bootstrap.css" />
+    <Content Include="Areas\assets\plugins\dataTables\dataTables.bootstrap.js" />
+    <Content Include="Areas\assets\plugins\dataTables\jquery.dataTables.js" />
+    <Content Include="Areas\assets\plugins\flot\excanvas.min.js" />
+    <Content Include="Areas\assets\plugins\flot\jquery.flot.js" />
+    <Content Include="Areas\assets\plugins\flot\jquery.flot.pie.js" />
+    <Content Include="Areas\assets\plugins\flot\jquery.flot.resize.js" />
+    <Content Include="Areas\assets\plugins\flot\jquery.flot.tooltip.min.js" />
+    <Content Include="Areas\assets\plugins\jquery-1.10.2.js" />
+    <Content Include="Areas\assets\plugins\metisMenu\jquery.metisMenu.js" />
+    <Content Include="Areas\assets\plugins\morris\morris-0.4.3.min.css" />
+    <Content Include="Areas\assets\plugins\morris\morris.js" />
+    <Content Include="Areas\assets\plugins\morris\raphael-2.1.0.min.js" />
+    <Content Include="Areas\assets\plugins\pace\pace-theme-big-counter.css" />
+    <Content Include="Areas\assets\plugins\pace\pace.js" />
+    <Content Include="Areas\assets\plugins\social-buttons\social-buttons.css" />
+    <Content Include="Areas\assets\plugins\timeline\timeline.css" />
+    <Content Include="Areas\assets\scripts\dashboard-demo.js" />
+    <Content Include="Areas\assets\scripts\flot-demo.js" />
+    <Content Include="Areas\assets\scripts\morris-demo.js" />
+    <Content Include="Areas\assets\scripts\siminta.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
@@ -187,6 +226,19 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Models\Generated\PetaPoco.Generator.ttinclude" />
     <Content Include="Models\Generated\PetaPoco.Core.ttinclude" />
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\Admin\Views\Shared\_MainLayoutAdmin.cshtml" />
+    <Content Include="Areas\Admin\Views\MainAdmin\Index.cshtml" />
+    <Content Include="Areas\assets\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="Areas\assets\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="Areas\assets\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="Areas\assets\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="Areas\assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Areas\assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Areas\assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Areas\Admin\Views\Product\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\ProductType\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Producer\Index.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -271,9 +323,11 @@
     <Content Include="TN\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Views\SHOP\Index.cshtml" />
     <Content Include="Views\SHOP\Details.cshtml" />
+    <Content Include="Views\Producer\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
