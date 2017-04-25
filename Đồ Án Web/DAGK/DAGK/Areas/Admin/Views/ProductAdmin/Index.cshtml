@@ -1,0 +1,68 @@
+﻿@model IEnumerable<WEB2Connection.Product>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_MainLayoutAdmin.cshtml";
+}
+
+
+
+<style>
+    table {
+        border-collapse: collapse;
+        width: 90%;
+        margin: auto;
+    }
+
+    th, td {
+        text-align: center;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #6b856b;
+    }
+
+    th {
+        background-color: #4d904f;
+        color: white;
+    }
+</style>
+<h2> Product Admin </h2>
+
+<table>
+    <tr>
+        <th> ProductID </th>
+        <th> ProductName </th>
+        <th> ProductTypeID </th>
+        <th>ProducerID </th>
+        <th> Price </th>
+        <th> Sold </th>
+        <th> Deleted </th>
+        <th> Quantity </th>
+        <th colspan="2">
+            <a href="@Url.Action("Create", "ProductAdmin")"><img src="~/Areas/assets/img/Add.png" /></a>
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ProductID</td>
+            <td>@item.ProductName</td>
+            <td>@item.ProductTypeID</td>
+            <td>@item.ProducerID </td>
+            <td>@item.Price </td>
+            <td>@item.Sold </td>
+            <td>@item.Quantity </td>
+            <td>@item.Deleted </td>
+
+            <td><img src="~/Areas/assets/img/@item.ImageURL" style="width: 60px; height:70px " /></td>
+            <td><a href="@Url.Action("Edit","ProductAdmin", new { id = @item.ProductID})"><img src="~/Areas/assets/img/Edit.png" /></a></td>
+            <td><a href="@Url.Action("XoaTam","ProductAdmin", new { id = @item.ProductID})"><img src="~/Areas/assets/img/Delete.png" /></a> </td>
+        </tr>
+    }
+
+
+
+</table>
+
+

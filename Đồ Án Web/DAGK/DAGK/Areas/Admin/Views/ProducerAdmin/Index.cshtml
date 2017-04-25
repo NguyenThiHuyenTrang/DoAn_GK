@@ -1,0 +1,60 @@
+﻿@model IEnumerable<WEB2Connection.Producer>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_MainLayoutAdmin.cshtml";
+}
+
+
+
+<style>
+    table {
+        border-collapse: collapse;
+        width: 90%;
+        margin: auto;
+    }
+
+    th, td {
+        text-align: center;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #6b856b;
+    }
+
+    th {
+        background-color: #4d904f;
+        color: white;
+    }
+</style>
+<h2> Producer Admin </h2>
+
+<table>
+    <tr>
+        <th> ProducerID </th>
+        <th> ProducerName </th>
+        <th> LoGo </th>
+        <th> Deleted </th>
+        
+        <th colspan="2">
+            <a href="@Url.Action("Create", "ProducerAdmin")"><img src="~/Areas/assets/img/Add.png" /></a>
+        </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ProducerID</td>
+            <td>@item.ProducerName</td>
+            <td>@item.Deleted </td>
+            
+            <td><img src="~/Areas/assets/img/@item.LoGo" style="width: 60px; height:70px " /></td>
+            <td><a href="@Url.Action("Edit","ProducerAdmin", new { id = @item.ProducerID})"><img src="~/Areas/assets/img/Edit.png" /></a></td>
+            <td><a href="@Url.Action("XoaTam","ProducerAdmin", new { id = @item.ProducerID})"><img src="~/Areas/assets/img/Delete.png" /></a> </td>
+        </tr>
+    }
+
+
+
+</table>
+
+
