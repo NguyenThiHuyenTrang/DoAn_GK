@@ -1,4 +1,6 @@
-﻿using System;
+﻿using DAGK.Models.Bus;
+using WEB2Connection;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +13,7 @@ namespace DAGK.Areas.Admin.Controllers
         // GET: Admin/Product
         public ActionResult Index()
         {
-            return View();
+            return View(SHOPBus.DanhSachProductAdmin());
         }
 
         // GET: Admin/Product/Details/5
@@ -28,12 +30,12 @@ namespace DAGK.Areas.Admin.Controllers
 
         // POST: Admin/Product/Create
         [HttpPost]
-        public ActionResult Create(FormCollection collection)
+        public ActionResult Create(Product product)
         {
             try
             {
                 // TODO: Add insert logic here
-
+                SHOPBus.InsertProductAdmin(product);
                 return RedirectToAction("Index");
             }
             catch
@@ -87,3 +89,5 @@ namespace DAGK.Areas.Admin.Controllers
         }
     }
 }
+
+

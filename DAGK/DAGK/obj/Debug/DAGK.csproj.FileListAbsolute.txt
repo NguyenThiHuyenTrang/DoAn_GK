@@ -126,3 +126,59 @@ C:\Users\Huyền Trang\Desktop\Tam2\DAGK\DAGK\bin\Antlr3.Runtime.pdb
 C:\Users\Huyền Trang\Desktop\Tam2\DAGK\DAGK\obj\Debug\DAGK.csprojResolveAssemblyReference.cache
 C:\Users\Huyền Trang\Desktop\Tam2\DAGK\DAGK\obj\Debug\DAGK.dll
 C:\Users\Huyền Trang\Desktop\Tam2\DAGK\DAGK\obj\Debug\DAGK.pdb
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\bin\DAGK.dll.config
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\bin\DAGK.dll
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\bin\DAGK.pdb
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\bin\Antlr3.Runtime.dll
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\bin\PagedList.dll
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\bin\PagedList.Mvc.dll
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\bin\System.Web.Helpers.dll
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\bin\System.Web.Mvc.dll
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\bin\System.Web.Optimization.dll
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\bin\System.Web.Razor.dll
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\bin\System.Web.WebPages.dll
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\bin\System.Web.WebPages.Razor.dll
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\bin\WebGrease.dll
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\bin\PagedList.xml
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\bin\PagedList.Mvc.xml
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\bin\System.Web.Helpers.xml
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\bin\System.Web.Mvc.xml
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\bin\System.Web.Optimization.xml
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\bin\System.Web.Razor.xml
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\bin\System.Web.WebPages.xml
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\bin\System.Web.WebPages.Razor.xml
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\bin\Antlr3.Runtime.pdb
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\obj\Debug\DAGK.csprojResolveAssemblyReference.cache
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\obj\Debug\DAGK.dll
+C:\Users\Huyền Trang\Desktop\Lam\DAGK\DAGK\obj\Debug\DAGK.pdb
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\bin\DAGK.dll.config
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\bin\DAGK.dll
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\bin\DAGK.pdb
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\bin\Antlr3.Runtime.dll
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\bin\PagedList.dll
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\bin\PagedList.Mvc.dll
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\bin\System.Web.Helpers.dll
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\bin\System.Web.Mvc.dll
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\bin\System.Web.Optimization.dll
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\bin\System.Web.Razor.dll
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\bin\System.Web.WebPages.dll
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\bin\System.Web.WebPages.Razor.dll
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\bin\WebGrease.dll
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\bin\PagedList.xml
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\bin\PagedList.Mvc.xml
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\bin\System.Web.Helpers.xml
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\bin\System.Web.Mvc.xml
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\bin\System.Web.Optimization.xml
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\bin\System.Web.Razor.xml
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\bin\System.Web.WebPages.xml
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\bin\System.Web.WebPages.Razor.xml
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\bin\Antlr3.Runtime.pdb
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\obj\Debug\DAGK.csprojResolveAssemblyReference.cache
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\obj\Debug\DAGK.dll
+C:\Users\Huyền Trang\Desktop\Đồ Án Web\DAGK\DAGK\obj\Debug\DAGK.pdb

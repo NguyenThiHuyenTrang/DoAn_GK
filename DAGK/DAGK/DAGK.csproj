@@ -180,6 +180,7 @@
     <Compile Include="Models\Bus\ProducerBus.cs" />
     <Compile Include="Models\Bus\ProductTypeBus.cs" />
     <Compile Include="Models\Bus\SHOPBus.cs" />
+    <Compile Include="Models\Bus\WEBConnectionDB.cs" />
     <Compile Include="Models\Generated\Database.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -250,11 +251,12 @@
     <Content Include="Areas\assets\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Areas\assets\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Areas\assets\fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="Areas\Admin\Views\Product\Index.cshtml" />
-    <Content Include="Areas\Admin\Views\ProducerAdmin\Index.cshtml" />
     <Content Include="Areas\Admin\Views\ProductTypeAdmin\Index.cshtml" />
     <Content Include="Areas\Admin\Views\ProductTypeAdmin\Create.cshtml" />
     <Content Include="Areas\Admin\Views\ProducerAdmin\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\ProductAdmin\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\ProducerAdmin\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\ProductAdmin\Index.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
