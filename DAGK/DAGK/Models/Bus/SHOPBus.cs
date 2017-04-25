@@ -12,7 +12,7 @@ namespace DAGK.Models.Bus
         public static IEnumerable<Product> DanhSach()
         {
             var db = new WEB2ConnectionDB();
-            return db.Query<Product>("select  * from Product");
+            return db.Query<Product>("select  * from Product where Delete !=1");
         }
         public static Product ChiTiet(String id )
         {
@@ -23,7 +23,7 @@ namespace DAGK.Models.Bus
 
         {
             var db = new WEB2ConnectionDB();
-            return db.Query<Product>("Select * from Product");
+            return db.Query<Product>("Select * from Product where Deleted !=1" );
         }
 
         public static void InsertProductAdmin(Product product)
@@ -32,6 +32,8 @@ namespace DAGK.Models.Bus
             db.Insert(product);
 
         }
+
+        
     }
     
 }

@@ -25,6 +25,8 @@ namespace DAGK.Areas.Admin.Controllers
         // GET: Admin/Product/Create
         public ActionResult Create()
         {
+            ViewBag.ProducerID = new SelectList(ProducerBus.DanhSach(), "ProducerID", "ProducerName");
+            ViewBag.ProductTypeID = new SelectList(ProductTypeBus.DanhSach(), "ProductTypeID", "ProductTypeName");
             return View();
         }
 
@@ -32,17 +34,31 @@ namespace DAGK.Areas.Admin.Controllers
         [HttpPost]
         public ActionResult Create(Product product)
         {
-            try
+            //try
+            //{
+            // TODO: Add insert logic here
+            if (HttpContext.Request.Files.Count > 0)
             {
-                // TODO: Add insert logic here
-                SHOPBus.InsertProductAdmin(product);
-                return RedirectToAction("Index");
+                var hpf = HttpContext.Request.Files[0];
+                if (hpf.ContentLength > 0)
+                {
+                    string fileName = Guid.NewGuid().ToString();
+
+                    string fullPathWithFileName = "~/TN/img/" + fileName + ".jpg";
+                    hpf.SaveAs(Server.MapPath(fullPathWithFileName));
+                    product.ImageURL = fullPathWithFileName;
+                }
             }
-            catch
-            {
-                return View();
-            }
+            SHOPBus.InsertProductAdmin(product);
+            return RedirectToAction("Index");
+            //    }
+            //}
+            //catch
+            //{
+            //    return View();
+            //}
         }
+
 
         // GET: Admin/Product/Edit/5
         public ActionResult Edit(int id)

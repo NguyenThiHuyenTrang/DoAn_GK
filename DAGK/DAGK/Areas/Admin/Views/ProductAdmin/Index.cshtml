@@ -4,19 +4,7 @@
     Layout = "~/Areas/Admin/Views/Shared/_MainLayoutAdmin.cshtml";
 }
 
-@*<div id="page-wrapper">
 
-        <div class="row">
-
-            <div class="col-lg-12">
-                <h1 class="page-header"> Sản phẩm</h1>
-            </div>
-
-        </div>
-
-
-
-    </div>*@
 
 <style>
     table {
@@ -31,11 +19,11 @@
     }
 
     tr:nth-child(even) {
-        background-color: #000000;
+        background-color: #6b856b;
     }
 
     th {
-        background-color: #4CAF50;
+        background-color: #4d904f;
         color: white;
     }
 </style>
@@ -45,10 +33,12 @@
     <tr>
         <th> ProductID </th>
         <th> ProductName </th>
-        <th>ProducerID </th>
         <th> ProductTypeID </th>
+        <th>ProducerID </th>
         <th> Price </th>
-        <th> Hình ảnh </th>
+        <th> Sold </th>
+        <th> Deleted </th>
+        <th> Quantity </th>
         <th colspan="2">
             <a href="@Url.Action("Create", "ProductAdmin")"><img src="~/Areas/assets/img/Add.png" /></a>
         </th>
@@ -58,9 +48,14 @@
         <tr>
             <td>@item.ProductID</td>
             <td>@item.ProductName</td>
-            @*<td>@item.HinhAnh</td>*@
+            <td>@item.ProductTypeID</td>
+            <td>@item.ProducerID </td>
+            <td>@item.Price </td>
+            <td>@item.Sold </td>
+            <td>@item.Quantity </td>
             <td>@item.Deleted </td>
-            <td><img src="@item.ImageURL" style="width: 60px; height:70px " /></td>
+
+            <td><img src="~/Areas/assets/img/@item.ImageURL" style="width: 60px; height:70px " /></td>
             <td><a href="@Url.Action("Edit","ProductAdmin", new { id = @item.ProductID})"><img src="~/Areas/assets/img/Edit.png" /></a></td>
             <td><a href="@Url.Action("XoaTam","SanPhamAdmin", new { id = @item.ProductID})"><img src="~/Areas/assets/img/Delete.png" /></a> </td>
         </tr>
